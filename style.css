@@ -1,0 +1,554 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+header .logo{
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px
+}
+header .logo span{
+        padding: 10px 17px;
+        font-size: 30px;
+        width: 100PX;
+        color: white;
+        background-color: blue;
+        border-radius: 50px;
+}
+header .logo span:hover{
+    cursor: pointer;
+}
+header nav{
+    width: 1000px;
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    
+
+}
+header nav li{
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 8PX;
+    background-color: rgba(255, 228, 196, 0);
+    font-weight: bold;
+    font-family: Arial;
+    transition: all 1s ease;
+}
+header nav li:hover{
+   color: aqua;
+   font-size: 22px;
+}
+#main{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+}
+#main .para{
+    width: 50%;
+    height: 100vh;
+    font-weight: bold;
+
+}
+.para h1{
+    color: rgb(0, 0, 0);
+     padding-top: 10rem ;
+     margin-left: 60px;
+     font-size: 50px;
+}
+.para p{
+    padding-top: 5rem ;
+     margin-left: 40px;
+     color: rgb(0, 0, 0);
+     font-size: 30px;
+     font-weight: bold;
+
+}
+.para button{
+    margin-left: 30%;
+    margin-top: 20PX;
+    padding: 20PX;
+    width: 30%;
+    font-size: 20px;
+    border-radius: 30px;
+    border-style: none;
+    border: 2px solid rgb(0, 102, 255);
+    color: rgb(0, 102, 255);
+}
+.para button:hover{
+    cursor: pointer;
+}
+#main .pic{
+    width: 50%;
+    height: 100vh;
+    background-image: url(/Screenshot\ \(9\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#new{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+}
+.heading{
+    height: 70px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.heading h1{
+  font-weight: bolder;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.paragraph{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+
+
+}
+
+.grand{
+    width:100%;
+    height: 140vh;
+}
+.parentone{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
+.parent{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    width: 25%;
+    height: 60vh;
+    background-color: rgba(128, 128, 128, 0.058);
+    margin-top:35px ;
+    border-radius: 20px;
+}
+.box img{
+    width: 100%;
+    height: 35vh;
+}
+.box h1{
+    margin-top: 3rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.box p{
+    margin-left:14px ;
+
+}
+.boxone{
+    width: 25%;
+    height: 60vh;
+    background-color: rgba(128, 128, 128, 0.096);
+    margin-top:35px ;
+    border-radius: 20px;
+}
+.boxone img{
+    width: 100%;
+    height: 35vh;
+}
+.boxone h1{
+    margin-top: 3rem;
+    margin-left: 10px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.boxone p{
+   margin-left: 12px ;
+}
+
+#second{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 25rem;
+}
+#second button{
+    margin-left: 42%;
+    margin-top: 20PX;
+    padding: 20PX;
+    width: 20%;
+    font-size: 20px;
+    border-radius: 30px;
+    border-style: none;
+    border: 2px solid rgb(0, 102, 255);
+    color: rgb(0, 102, 255);
+}
+#second button:hover{
+    cursor: pointer;
+}
+.picture{
+    width: 50%;
+    height: 100vh;
+    margin-top: 10px;
+    background-image: url(/Screenshot\ \(10\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.third{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.half{
+    width: 50%;
+    height: 100vh;
+    margin-top: 13rem;
+    margin-left: 30px;
+    text-transform: capitalize;
+}
+.half h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.half p{
+    margin-top: 3rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+#second .half button{
+    padding: 20px;
+    width: 40%;
+    border-radius: 30px;
+    border-color: rgb(0, 102, 255) ;
+    color: rgb(0, 102, 255) ;
+    font-size: 18px ;
+}
+.half button:hover{
+    cursor: pointer;
+}
+#forth{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 7rem;
+    display: flex;
+    
+}
+#forth .lorem{
+    width: 50%;
+    height: 100vh;
+}
+#forth .lorem h1{
+    margin-top: 12rem;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+}
+#forth .lorem p{
+   
+    font-size: 20px;
+    font-weight: bold;
+}
+#forth .image{
+    width: 50%;
+    height: 100vh;
+    background-image: url(/Screenshot\ \(11\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lorem button{
+    padding: 20px;
+    width: 39%;
+    border-radius: 30px;
+    border-color: rgb(0, 102, 255) ;
+    color: rgb(0, 102, 255);
+    font-size: 18px ;
+    transition: all 0.3s linear;
+}
+.lorem button:hover{
+    cursor: pointer;
+    padding: 22px;
+    font-size: 20px;
+    width: 40%;
+}
+#fivth{
+    width: 85%;
+    height: 50vh;
+    margin: 0 auto;
+    background-color: rgb(68, 143, 255);
+    border-radius: 25px;
+    color: white;
+}
+#fivth .design{
+    width: 85%;
+    height: 50vh;
+    display: flex;
+}
+#fivth .design1{
+    display: flex;
+}
+#fivth .design .design1{
+    
+position: relative;
+top:81px;
+left: 44px;
+
+}
+.bold{
+    width: 100%;
+    padding: 20px;
+}
+.meImage{
+    width: 500%;
+    height: 50%;
+    border-radius: 50%;
+    position: relative;
+    right: 19rem;
+   
+}
+.head1{
+    width: 300%;
+    height: 100px;
+    text-transform: capitalize;
+    font-size: 20px;
+    
+}
+.head1 h1{
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+    right: 10rem;
+}
+.bold h1{
+     width: 100%;
+     text-align: center;
+     padding: 20px;
+     text-transform: capitalize;
+     font-size: 30px;
+     font-weight: bolder;
+     position: relative;
+     bottom: 20px;
+     left: 400px;
+}
+.design{
+    width: 50%;
+    height: 50vh;
+}
+.design2{
+    width: 500%;
+    height: 30vh;
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    top: 35px;
+}
+
+#ndlast{
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+    margin-top: 10%;
+}
+.lasthead{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.mainbox{
+    width: 90%;
+    margin: 0 auto;
+    height: 75vh;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.mainbox .boxess{
+    width: 28%;
+     height: 65vh;
+     margin-top: 30PX;
+     border-radius: 30PX;
+     border: 1px solid rgba(128, 128, 128, 0.327);
+}
+.hedfirst {
+    margin-top: 3rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.parafirst{
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+.buttonfirst{
+    padding:16px ;
+    margin-left: 20px;
+    border-style: none;
+    color: rgb(0, 85, 255);
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 17PX;
+}
+.buttonfirst:hover{
+    cursor: pointer;
+}
+.firstimg img{
+    width: 100%;
+     height: 30vh;
+}
+.hedsec {
+    margin-top: 3rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.parasec {
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+.buttonsec {
+    padding:16px ;
+    margin-left: 20px;
+    border-style: none;
+    color: rgb(0, 85, 255);
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 17PX;
+}
+.buttonsec:hover {
+    cursor: pointer;
+}
+.secimg img{
+    width: 100%;
+     height: 30vh;
+}
+.hedthird{
+    margin-top: 3rem;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.parathird{
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+.buttonthird{
+    padding:16px ;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-style: none;
+    color: rgb(0, 85, 255);
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 17PX;
+}
+.buttonthird:hover {
+    cursor: pointer;
+}
+.thirdimg img{
+    width: 100%;
+     height: 30vh;
+}
+.all button{
+    padding: 20px;
+    width: 17%;
+    border-radius: 30px;
+    border-color: rgb(0, 102, 255) ;
+    color: rgb(0, 102, 255);
+    font-size: 18px ;
+    margin-left: 40%;
+    background-color: transparent;
+}
+.all button:hover{
+    cursor: pointer;
+}
+#hooter{
+    width: 100%;
+    height: 50vh;
+    margin-top: 10%;
+    background-color: rgb(68, 143, 255);
+    display: flex;
+}
+#hooter .hooter{
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    padding-top: 30px;
+    display: flex;
+}
+#hooter .hooter span{
+    padding: 10px 17px;
+        font-size: 30px;
+        width: 60PX;
+        height: 60px;
+        color: rgb(68, 143, 255) ;
+        background-color: white;
+        border-radius: 50px; 
+        position: relative;
+        top: 70px;
+        left: 90px ;
+        font-family: Arial;
+}
+.mainhed{
+    margin-top: 75px;
+    position: relative;
+    left: 100px;
+    font-size : 25px;
+    font-family: Arial;
+    text-transform: capitalize;
+}
+.paramatic{
+    margin-top: 140px;
+}
+#hooter .hooter p{
+    color: white;
+}
+#hooter .hooter2 p{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 0px;
+        font-size: 15px;
+}
+.mainli{
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    position: relative;
+    top: 60px;
+}
+.mainli h2{
+    margin-bottom: 40px;
+}
+.mainli li{
+    margin-top: 20px;
+    list-style: none;
+}
